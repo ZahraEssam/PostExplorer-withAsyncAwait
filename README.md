@@ -9,11 +9,6 @@ A modern and cleaner web app to explore posts and their comments using **JSON Pl
 - Uses `async/await` for cleaner and readable async code
 - Handles errors with try/catch
 
-**How to use:**
-1. Open `index.html` in your browser
-2. Posts and comments will load automatically
-3. Inspect the console for errors if any
-
 **Tech Used:**
 - JavaScript (ES6+)
 - Fetch API
@@ -21,4 +16,5 @@ A modern and cleaner web app to explore posts and their comments using **JSON Pl
 - DOM Manipulation
 
 **Live Demo:** [GitHub Pages](https://zahraessam.github.io/PostExplorer-withAsyncAwait/)
+
 
