@@ -7,9 +7,20 @@ async function loadPosts() {
             const postDiv = document.createElement("div");
             postDiv.className = "post";
             postDiv.innerHTML = `
-                <h2>${post.title}</h2>
+            <div class="post-header">
+                <div class="avatar"></div>
+                <div>
+                    <div class="username">User ${post.userId}</div>
+                    <div class="time">Just now</div>
+                </div>
+            </div>
+
+            <div class="post-content">
+                <strong>${post.title}</strong>
                 <p>${post.body}</p>
-                <div class="comments">Loading comments...</div>
+            </div>
+
+            <div class="comments">Loading comments...</div>
             `;
             postsContainer.appendChild(postDiv);
 
